@@ -1,0 +1,41 @@
+body{
+    color: #ffebcd;
+    background-color: brown;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 60px;
+}
+
+a{
+    background-color: #461616;
+
+    width: 45%;
+    display: flex;
+    gap: 5%;
+    color: #f5f5dc;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media (max-width: 700px){
+    body{
+        padding: 30px;
+    }
+
+    main{
+        flex-direction: column;
+        
+    }
+
+    a{
+        width: 100%;
+    }
+}
+
